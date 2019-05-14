@@ -14,6 +14,7 @@
 		D4EE1A1A228A663900EA100B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EE1A19228A663900EA100B /* Assets.xcassets */; };
 		D4EE1A1D228A663900EA100B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EE1A1B228A663900EA100B /* LaunchScreen.storyboard */; };
 		D4EE1A28228A663900EA100B /* Json_introTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE1A27228A663900EA100B /* Json_introTests.swift */; };
+		D4EE1A33228A691F00EA100B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE1A32228A691F00EA100B /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D4EE1A23228A663900EA100B /* Json introTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Json introTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EE1A27228A663900EA100B /* Json_introTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json_introTests.swift; sourceTree = "<group>"; };
 		D4EE1A29228A663900EA100B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EE1A32228A691F00EA100B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				D4EE1A10228A663800EA100B /* AppDelegate.swift */,
+				D4EE1A32228A691F00EA100B /* DataManager.swift */,
 				D4EE1A12228A663800EA100B /* MasterViewController.swift */,
 				D4EE1A14228A663800EA100B /* DetailViewController.swift */,
 				D4EE1A16228A663800EA100B /* Main.storyboard */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4EE1A15228A663800EA100B /* DetailViewController.swift in Sources */,
+				D4EE1A33228A691F00EA100B /* DataManager.swift in Sources */,
 				D4EE1A13228A663800EA100B /* MasterViewController.swift in Sources */,
 				D4EE1A11228A663800EA100B /* AppDelegate.swift in Sources */,
 			);
